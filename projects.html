@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Projects | Joshua Algee</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body data-page="projects">
+
+<header class="site-header">
+
+    <nav class="navbar container">
+
+        <a class="logo" href="index.html">
+            Joshua Algee
+        </a>
+
+        <button
+            class="menu-button"
+            id="menu-button"
+            aria-label="Open navigation menu"
+        >
+            ☰
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+
+            <li><a data-nav="home" href="index.html">Home</a></li>
+            <li><a data-nav="about" href="about.html">About</a></li>
+            <li><a data-nav="projects" href="projects.html">Projects</a></li>
+            <li><a data-nav="experience" href="experience.html">Experience</a></li>
+            <li><a data-nav="resume" href="resume.html">Resume</a></li>
+            <li><a data-nav="goals" href="goals.html">Goals</a></li>
+            <li><a data-nav="contact" href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+    <section class="page-header">
+
+        <div class="container">
+
+            <p class="eyebrow">
+                PROJECTS
+            </p>
+
+            <h1>
+                Things I've built.
+            </h1>
+
+            <p>
+                Projects are where I turn what I learn in class and on my own
+                into working systems. This collection will continue growing as
+                I progress through computer engineering.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section class="content-section">
+
+        <div class="container">
+
+            <div class="project-grid">
+
+                <article class="project-card">
+
+                    <div class="project-content">
+
+                        <p class="project-type">
+                            FPGA / DIGITAL HARDWARE
+                        </p>
+
+                        <h3>
+                            FPGA Digital Systems
+                        </h3>
+
+                        <p>
+                            Designed combinational and sequential digital
+                            systems using Verilog and deployed them to a
+                            BASYS 3 development board using Vivado.
+                        </p>
+
+                        <div class="tags">
+                            <span>Verilog</span>
+                            <span>Vivado</span>
+                            <span>FPGA</span>
+                            <span>Artix-7</span>
+                        </div>
+
+                        <a
+                            href="projects/fpga-digital-systems.html"
+                            class="text-link"
+                        >
+                            View Project →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-content">
+
+                        <p class="project-type">
+                            EMBEDDED SYSTEMS
+                        </p>
+
+                        <h3>
+                            Microcontroller LED Controller
+                        </h3>
+
+                        <p>
+                            Developed embedded C programs that interact
+                            directly with microcontroller hardware using
+                            GPIO, timers, and PWM.
+                        </p>
+
+                        <div class="tags">
+                            <span>C</span>
+                            <span>Arduino</span>
+                            <span>GPIO</span>
+                            <span>PWM</span>
+                        </div>
+
+                        <a
+                            href="projects/arduino-led-controller.html"
+                            class="text-link"
+                        >
+                            View Project →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-content">
+
+                        <p class="project-type">
+                            CYBERSECURITY
+                        </p>
+
+                        <h3>
+                            Cybersecurity Competition
+                        </h3>
+
+                        <p>
+                            Worked with a four-person team to recover and
+                            secure compromised Windows systems in a
+                            competitive environment.
+                        </p>
+
+                        <div class="tags">
+                            <span>Windows</span>
+                            <span>Networking</span>
+                            <span>Security</span>
+                            <span>Virtual Machines</span>
+                        </div>
+
+                        <a
+                            href="projects/cybersecurity-competition.html"
+                            class="text-link"
+                        >
+                            View Project →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-content">
+
+                        <p class="project-type">
+                            WEB DEVELOPMENT
+                        </p>
+
+                        <h3>
+                            Personal Portfolio Website
+                        </h3>
+
+                        <p>
+                            Designed and developed this portfolio from
+                            scratch using HTML, CSS, JavaScript, Git,
+                            GitHub, and GitHub Pages.
+                        </p>
+
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Git</span>
+                        </div>
+
+                        <a
+                            href="https://github.com/joshua-algee/JoshuaAlgeePortfolio"
+                            class="text-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="container footer-content">
+
+        <p>
+            © <span id="year"></span> Joshua Algee
+        </p>
+
+        <div class="footer-links">
+
+            <a
+                href="https://github.com/joshua-algee"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                GitHub
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
